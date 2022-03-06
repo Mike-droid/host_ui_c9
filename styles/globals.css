@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@500;600&display=swap');
+
+/*
+* font-family: 'Permanent Marker', cursive;
+* font-family: 'Poppins', sans-serif;
+*/
+
+:root {
+  --white: #fff;
+  --blue: #1572A1;
+}
+
 html,
 body {
   padding: 0;
