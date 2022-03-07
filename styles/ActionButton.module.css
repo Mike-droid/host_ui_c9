@@ -1,0 +1,11 @@
+.ActionButton {
+  background-color: var(--blue);
+  border-radius: 32px;
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-block: 10px;
+  padding-inline: 20px;
+}

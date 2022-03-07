@@ -1,7 +1,14 @@
+import Link from 'next/link';
+import ActionButtonStyles from '../styles/ActionButton.module.css'
+
 const ActionButton = (props) => {
   const { textButton } = props;
   return (
-    <button>{ textButton }</button>
+    <Link href='#'>
+      <a className={ActionButtonStyles.ActionButton}>
+        { textButton }
+      </a>
+    </Link>
   )
 }
 

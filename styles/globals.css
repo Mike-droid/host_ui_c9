@@ -6,8 +6,9 @@
 */
 
 :root {
-  --white: #fff;
+  --black: #000;
   --blue: #1572A1;
+  --white: #fff;
 }
 
 html,
