@@ -8,6 +8,7 @@
 @media (max-width:991px){
   .leftSideWithButton{
     width: 100%;
+    height: 50vh;
   }
 }
 
@@ -19,6 +20,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 .description {
   color: var(--white);

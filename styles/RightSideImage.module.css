@@ -27,12 +27,13 @@
 
 .right_side_image {
   position: relative;
-  width: 50%;
+  width: 50vw;
   height: 100%;
 }
 @media (max-width:991px){
   .right_side_image{
-    display: none;
+    width: 100%;
+    height: 50vh;
   }
 }
 
