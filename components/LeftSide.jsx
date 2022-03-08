@@ -6,9 +6,13 @@ const LeftSide = (props) => {
   return (
     <section className={LeftSideStyles.leftSide}>
       <BSbutton />
-      <p className={LeftSideStyles.description}>
-        { description }
-      </p>
+      
+      <div className={LeftSideStyles.innerContent}>
+        <p className={LeftSideStyles.description}>
+          { description }
+        </p>
+      </div>
+
     </section>
   )
 }

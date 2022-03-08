@@ -12,4 +12,12 @@
   display: block;
   position: absolute;
   text-align: center;
+  transition: all ease 0.1s;
+}
+@media (max-width:991px){
+  .BSbutton{
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+  }
 }
