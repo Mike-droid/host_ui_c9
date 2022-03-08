@@ -1,0 +1,19 @@
+.leftSide {
+  background: rgb(255,186,130);
+  background: linear-gradient(36deg, rgba(255,186,130,1) 0%, rgba(180,120,174,1) 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  width: 530px;
+  height: fit-content;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}

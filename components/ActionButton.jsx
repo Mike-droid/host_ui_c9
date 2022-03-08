@@ -2,9 +2,9 @@ import Link from 'next/link';
 import ActionButtonStyles from '../styles/ActionButton.module.css'
 
 const ActionButton = (props) => {
-  const { textButton } = props;
+  const { textButton, paso } = props;
   return (
-    <Link href='#'>
+    <Link href={`/paso/${paso}`}>
       <a className={ActionButtonStyles.ActionButton}>
         { textButton }
       </a>

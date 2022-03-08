@@ -7,8 +7,10 @@ const LeftSideWithButton = (props) => {
   return (
     <section className={LeftSideWithButtonStyles.leftSideWithButton}>
       <BSbutton />
-      <p className={LeftSideWithButtonStyles.description}> { description } </p>
-      <ActionButton textButton="Anímate a ser anfitrión" />
+      <p className={LeftSideWithButtonStyles.description}>
+        { description }
+      </p>
+      <ActionButton textButton="Anímate a ser anfitrión" paso={1} />
     </section>
   )
 }

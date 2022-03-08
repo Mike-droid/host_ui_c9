@@ -1,0 +1,18 @@
+.optionCard {
+  width: 80%;
+  height: auto;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 25px;
+  margin: 25px auto;
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 24px;
+}
