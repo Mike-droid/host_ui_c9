@@ -12,6 +12,11 @@ const RightSide = (props) => {
         <OptionCard image='/finca.png' alt="Finca" description="Finca" />
         <OptionCard image='/hotel.png' alt="Hotel" description="Hotel" />
       </div>
+
+      <div className={RightSideStyles.stepsNavigation}>
+        
+
+      </div>{/*Steps Navigation*/}
       
     </section>
   );
