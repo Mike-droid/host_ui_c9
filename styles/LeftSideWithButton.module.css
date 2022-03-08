@@ -1,0 +1,18 @@
+.leftSideWithButton {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  width: 530px;
+  height: fit-content;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}

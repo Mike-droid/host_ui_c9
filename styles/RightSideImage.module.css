@@ -1,0 +1,33 @@
+.subtitle,
+.carlos {
+  bottom: 0;
+  color: var(--white);
+  font-weight: 400;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.carlos {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 48px;
+  margin-bottom: 100px;
+}
+
+.subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.HostImage {
+  width: 100%;
+}
+
+.right_side_image {
+  position: relative;
+  /*
+  !NOTA: OBLIGATORIO PARA QUE LA IMAGEN SE MUESTRE CORRECTAMENTE
+  */
+}
