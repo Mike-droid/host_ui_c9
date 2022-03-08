@@ -1,0 +1,29 @@
+.selection {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  border-radius: 1.4rem;
+  border-color: var(--black);
+  border-style: solid;
+  border-width: 0.1rem;
+  width: 70%;
+  height: 8rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+
+.selectionText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.selectionImage img {
+  border-radius: 1.4rem;
+}
+
+.selectionImage {
+  margin-left: 1.2rem;
+  margin-right: 1.4rem;
+}
