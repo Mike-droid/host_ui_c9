@@ -3,7 +3,12 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 50vw;
+  width: 50%;
+}
+@media (max-width:991px){
+  .leftSideWithButton{
+    width: 100%;
+  }
 }
 
 .innerContent{
@@ -19,11 +24,18 @@
   color: var(--white);
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 48px;
-  width: 530px;
-  height: fit-content;
+  font-size: 3rem;
+  width: 100%;
+  padding: 0 10vw;
   text-align: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  transition: all ease 0.2s;
+}
+
+@media (max-width:991px){
+  .description{
+    font-size: 2rem;
+  }
 }

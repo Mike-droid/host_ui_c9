@@ -27,9 +27,13 @@
 
 .right_side_image {
   position: relative;
-  background: #f00;
-  width: 50vw;
+  width: 50%;
   height: 100%;
+}
+@media (max-width:991px){
+  .right_side_image{
+    display: none;
+  }
 }
 
 .coverImage{
