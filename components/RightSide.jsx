@@ -1,4 +1,5 @@
 import OptionCard from '../components/OptionCard';
+import ActionButton from './ActionButton';
 import RightSideStyles from '../styles/RightSide.module.css';
 
 
@@ -14,8 +15,10 @@ const RightSide = (props) => {
       </div>
 
       <div className={RightSideStyles.stepsNavigation}>
-        
-
+        <ul className={RightSideStyles.stepsNavigationButtons}>
+          <li><a href="/host">Atrás</a></li>
+          <li><ActionButton textButton="Siguiente" paso={2} /></li>
+        </ul>
       </div>{/*Steps Navigation*/}
       
     </section>

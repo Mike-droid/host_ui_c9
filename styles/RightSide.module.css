@@ -6,18 +6,42 @@
 @media (max-width:991px){
     .right_side{
         width: 100%;
-        height: 35vh;
+        height: auto;
     }
 }
 
 .optionsList{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 150px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding:0 6rem;
 }
-.stepsNavigation{
+@media (max-width:991px){
+    .optionsList{
+        height: calc(70vh - 150px);
+        align-items: flex-start;
+        padding:0 1rem;
+    }
+}
 
+/*Navigation Buttons between Steps*/
+.stepsNavigation{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 2rem;
+    border-top: 1px solid var(--border);
 }
+ul.stepsNavigationButtons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+ul.stepsNavigationButtons li{
+    list-style: none;
+}
+
