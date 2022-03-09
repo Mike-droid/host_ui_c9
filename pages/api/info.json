@@ -1,0 +1,20 @@
+{
+  "pasos": [
+    {
+      "id": 1,
+      "image1": "/public/casa.png",
+      "image2": "/public/apartamento.png",
+      "image3": "/public/finca.png",
+      "image4": "/public/hotel.png",
+      "alt1": "Casa",
+      "alt2": "Apartamento",
+      "alt3": "Finca",
+      "alt4": "Hotel",
+      "description1": "Casa",
+      "description2": "Apartamento",
+      "description3": "Finca",
+      "description4": "Hotel",
+      "title": "¿Qué tipo de alojamiento vas a compartir?"
+    }
+  ]
+}
