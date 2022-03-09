@@ -8,6 +8,7 @@
   border: 1px solid var(--border);
   border-radius: 25px;
   margin: 25px auto;
+  padding-block: 15px;
 }
 
 .description {
